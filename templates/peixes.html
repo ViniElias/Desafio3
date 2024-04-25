@@ -1,0 +1,149 @@
+{% extends "base.html" %}
+
+{% block title%}Peixes{% endblock %}
+
+{% block content %}
+<div class="texto-main">
+    <h1 class="titulo">Peixes</h1><hr>
+    <div class="container-lista">
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item topico-lista flex-fill">Imagem</li>
+            <li class="list-group-item topico-lista flex-fill">Nome</li>
+            <li class="list-group-item topico-lista flex-fill">Comportamento</li>
+            <li class="list-group-item topico-lista flex-fill">Local</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/achigapqn.png')}}" alt="achigapqn" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Achigã Pequeno</li>
+            <li class="list-group-item flex-fill">Misto</li>
+            <li class="list-group-item flex-fill">Lago, Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/alocine.png')}}" alt="alocine" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Alocine</li>
+            <li class="list-group-item flex-fill">Suave</li>
+            <li class="list-group-item flex-fill">Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/Arraia.png')}}" alt="arraia" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Arraia</li>
+            <li class="list-group-item flex-fill">Suave</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/atum.png')}}" alt="atum" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Atum</li>
+            <li class="list-group-item flex-fill">Suave</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/bagre.png')}}" alt="bagre" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Bagre</li>
+            <li class="list-group-item flex-fill">Misto</li>
+            <li class="list-group-item flex-fill">Lago, Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/baiacu.png')}}" alt="baiacu" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Baiacu</li>
+            <li class="list-group-item flex-fill">Flutuante</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/carpa.png')}}" alt="carpa" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Carpa</li>
+            <li class="list-group-item flex-fill">Misto</li>
+            <li class="list-group-item flex-fill">Lago</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/cioba.png')}}" alt="cioba" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Cioba</li>
+            <li class="list-group-item flex-fill">Misto</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/enguia.png')}}" alt="enguia" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Enguia</li>
+            <li class="list-group-item flex-fill">Suave</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/esqualio.png')}}" alt="esqualio" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Esquálio</li>
+            <li class="list-group-item flex-fill">Dardo</li>
+            <li class="list-group-item flex-fill">Lago, Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/esturjao.png')}}" alt="esturjao" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Esturjão</li>
+            <li class="list-group-item flex-fill">Misto</li>
+            <li class="list-group-item flex-fill">Lago</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/halibute.png')}}" alt="halibute" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Halibute</li>
+            <li class="list-group-item flex-fill">Pesado</li>
+            <li class="list-group-item flex-fill">Lago, Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/linguado.png')}}" alt="linguado" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Linguado</li>
+            <li class="list-group-item flex-fill">Pesado</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/lucio.png')}}" alt="lucio" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Lúcio</li>
+            <li class="list-group-item flex-fill">Dardo</li>
+            <li class="list-group-item flex-fill">Lago, Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/lula.png')}}" alt="lula" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Lula</li>
+            <li class="list-group-item flex-fill">Pesado</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/peixebolha.png')}}" alt="peixebolha" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Peixe Bolha</li>
+            <li class="list-group-item flex-fill">Flutuador</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/peixegato.png')}}" alt="peixegato" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Peixe Gato</li>
+            <li class="list-group-item flex-fill">Suave</li>
+            <li class="list-group-item flex-fill">Lago</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/perca.png')}}" alt="perca" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Perca</li>
+            <li class="list-group-item flex-fill">Dardo</li>
+            <li class="list-group-item flex-fill">Lago, Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/polvo.png')}}" alt="polvo" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Polvo</li>
+            <li class="list-group-item flex-fill">Pesado</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/salmaohbr.png')}}" alt="salmaohbr" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Salmão Híbrido</li>
+            <li class="list-group-item flex-fill">Dardo</li>
+            <li class="list-group-item flex-fill">Rio</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/salmonete.png')}}" alt="salmonete" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Salmonete</li>
+            <li class="list-group-item flex-fill">Suave</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+        <ul class="list-group list-group-horizontal">
+            <li class="list-group-item flex-fill"><img src="{{ url_for('static', filename='images/sardinha.png')}}" alt="sardinha" class="acc-peixe"></li>
+            <li class="list-group-item flex-fill">Sardinha</li>
+            <li class="list-group-item flex-fill">Dardo</li>
+            <li class="list-group-item flex-fill">Praia</li>
+        </ul>
+    </div>
+</div>
+{% endblock %}

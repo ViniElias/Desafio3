@@ -53,3 +53,23 @@ body {
   justify-content: space-around;
   margin: 20px;
 }
+
+.topico-lista {
+  background-color: rgb(25, 206, 25);
+  color: white;
+  text-shadow: 1px 1px 5px black;
+  font-weight: bold;
+}
+
+.list-group-item {
+  display: flex;
+  justify-content: center !important;
+  align-items: center;
+  width: 10%;
+}
+
+.container-lista {
+  width: 80% !important;
+  margin: auto;
+  margin-bottom: 15px;
+}
