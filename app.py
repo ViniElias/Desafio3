@@ -10,5 +10,9 @@ def index():
 def peixes():
     return render_template("peixes.html")
 
+@app.route("/itens")
+def itens():
+    return render_template("itens.html")
+
 if __name__ == "__main__":
     app.run(debug=True)

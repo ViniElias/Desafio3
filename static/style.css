@@ -27,6 +27,7 @@ body {
   margin: auto;
   height: auto;
   flex-direction: column;
+  min-height: 100vh;
 }
 
 .texto-main{
@@ -69,7 +70,7 @@ body {
 }
 
 .container-lista {
-  width: 80% !important;
+  width: 70% !important;
   margin: auto;
   margin-bottom: 15px;
 }
