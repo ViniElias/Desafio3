@@ -8,7 +8,7 @@
   width: 100%;
   text-align: center;
   padding-top: 5px;
-  height: 76px;
+  height: auto;
   margin-top: auto;
 }
 
@@ -70,7 +70,116 @@ body {
 }
 
 .container-lista {
-  width: 70% !important;
+  width: 80% !important;
   margin: auto;
   margin-bottom: 15px;
+}
+
+#txt-sub, #prc-sub {
+  display: none;
+}
+
+@media only screen and (max-width: 1024px) {
+  #lista-peixes {
+    width: 100% !important;
+  }
+  #txt-sub {
+    display: flex;
+  }
+  #txt-padrao {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .container-lista {
+    width: 90% !important;
+    margin: auto;
+    margin-bottom: 15px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .accordion {
+    margin: 15px;
+    width: 90%;
+  }
+  .cards-locais {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+  }
+  .card {
+    width: 100% !important;
+    margin-bottom: 5px;
+  }
+  .img-estacao {
+    display: none !important;
+  }
+  .txt-estacao {
+    width: 75% !important;
+  }
+  .img-peixe {
+    display: none !important;
+  }
+  #lista-peixes {
+    font-size: 14px;
+    width: 100% !important;
+  }
+  #lista-itens {
+    font-size: 14px;
+    width: 100% !important;
+  }
+  .img-item {
+    display: none !important;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .container-lista {
+    width: 90% !important;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 14px;
+  }
+  .peixe-off {
+    display: none !important;
+  }
+  #lista-peixes {
+    font-size: 12px;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .container-lista {
+    width: 100% !important;
+    margin: auto;
+    margin-bottom: 15px;
+    font-size: 12px;
+  }
+  .peixe-off-2 {
+    display: none !important;
+  }
+  #prc-padrao {
+    display: none;
+  }
+  #prc-sub {
+    display: flex;
+  }
+  #lista-itens {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  body {
+    font-size: 30px;
+  }
+  h4 {
+    font-size: 40px;
+  }
+  .accordion-button p {
+    font-size: 30px !important;
+  }
 }
